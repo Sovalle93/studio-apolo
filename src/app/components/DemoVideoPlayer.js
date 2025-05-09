@@ -29,8 +29,8 @@ export default function DemoVideoPlayer() {
   };
 
   // Replace with your actual YouTube video ID
-  const youtubeVideoId = "YOUR_VIDEO_ID"; 
-  const thumbnailUrl = `https://img.youtube.com/vi/${youtubeVideoId}/maxresdefault.jpg`;
+  const youtubeVideoId = "2zU6uaVIURU"; 
+  const thumbnailUrl = `https://img.youtube.com/vi/${2zU6uaVIURU}/maxresdefault.jpg`;
 
   return (
     <motion.section 
@@ -70,7 +70,7 @@ export default function DemoVideoPlayer() {
             
             {/* Play Button Overlay */}
             <motion.a
-              href={`https://www.youtube.com/watch?v=${youtubeVideoId}`}
+              href={`https://www.youtube.com/watch?v=${2zU6uaVIURU}`}
               target="_blank"
               rel="noopener noreferrer"
               className="absolute inset-0 flex items-center justify-center"
