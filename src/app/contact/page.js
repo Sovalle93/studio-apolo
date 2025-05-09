@@ -29,7 +29,7 @@ export default function ContactPage() {
       selectedPackage: selectedPackage || 'No pack seleccionado'
     };
 
-    await fetch("https://formspree.io/f/mzzrgovo", {
+    await fetch("https://formspree.io/f/mzzrvejj", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
