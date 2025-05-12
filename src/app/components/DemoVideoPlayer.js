@@ -28,8 +28,8 @@ export default function DemoVideoPlayer() {
   };
   
   // Hard-coded YouTube video ID - don't use template literal here
-  const youtubeVideoId = "2zU6uaVIURU";
-  const thumbnailUrl = "https://img.youtube.com/vi/2zU6uaVIURU/maxresdefault.jpg";
+  const youtubeVideoId = "OK7C_i3nePo";
+  const thumbnailUrl = "https://img.youtube.com/vi/OK7C_i3nePo/maxresdefault.jpg";
   
   return (
     <motion.section
