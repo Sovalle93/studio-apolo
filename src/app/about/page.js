@@ -75,7 +75,9 @@ export default function About() {
             <h2 className="text-3xl font-bold mb-4" style={{ color: brandColor }}>Misión</h2>
             <div className="h-1 w-16 mb-6" style={{ backgroundColor: brandColor }}></div>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Potenciar el crecimiento digital de pequeñas y medianas empresas mediante soluciones integrales de comunicación y marketing...
+              Potenciar el crecimiento del mercado digital para pequeñas y medianas empresas radica en soluciones integrales de comunicación y marketing. Al
+              externalizar servicios profesionales y optimizar recursos, lasempresas pueden enfocar susesfuerzos en su negocio principal, transformando su identidad
+              digitalen resultados tangibles y medibles.
             </p>
           </div>
 
@@ -83,7 +85,9 @@ export default function About() {
             <h2 className="text-3xl font-bold mb-4" style={{ color: brandColor }}>Visión</h2>
             <div className="h-1 w-16 mb-6" style={{ backgroundColor: brandColor }}></div>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Ser reconocidos como el aliado estratégico de referencia para emprendedores y PyMEs que buscan profesionalizar su presencia digital...
+              Ser reconocido como un aliado estratégico para emprendedores y PYMES que buscan profesionalizar su presencia digital. Esto se logra mediante la construcción
+              de relaciones de confianza a largo plazo, basadas en resultados medibles, innovación constante y un profundo entendimiento del negocio, lo que contribuye a un éxito
+              sostenido de los clientes en su ecosistema digital.
             </p>
           </div>
         </motion.div>
