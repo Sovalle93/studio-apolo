@@ -69,7 +69,7 @@ export default function DemoVideoPlayer() {
            
             {/* Play Button Overlay */}
             <motion.a
-              href="https://www.youtube.com/watch?v=2zU6uaVIURU"
+              href="https://www.youtube.com/watch?v=OK7C_i3nePo"
               target="_blank"
               rel="noopener noreferrer"
               className="absolute inset-0 flex items-center justify-center"
