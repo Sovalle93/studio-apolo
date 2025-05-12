@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { motion } from 'framer-motion';
 import { FiSend } from 'react-icons/fi';
+import Image from 'next/image';
 
 export default function ContactPage() {
   const [selectedPackage, setSelectedPackage] = useState(null);
@@ -51,6 +52,20 @@ export default function ContactPage() {
         animate={{ opacity: 1, y: 0 }}
         className="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-md"
       >
+        {/* Logo Section */}
+        <div className="flex justify-center mb-8">
+          <div className="relative w-40 h-40 md:w-48 md:h-48 transition-all hover:scale-105">
+            <Image
+              src="https://res.cloudinary.com/dmivjpb65/image/upload/v1745007297/Screenshot_2025-04-18_161258_zuv9xb.png"
+              alt="Studio Apolo Logo"
+              fill
+              className="object-contain drop-shadow-lg hover:drop-shadow-xl transition-shadow duration-300"
+              sizes="(max-width: 768px) 160px, 192px"
+              priority
+            />
+          </div>
+        </div>
+
         <div className="mb-8 text-center">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Contacta a Studio Apolo</h1>
           <p className="text-gray-700">Completa el formulario y nos pondremos en contacto contigo</p>
