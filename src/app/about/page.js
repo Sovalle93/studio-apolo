@@ -104,15 +104,37 @@ export default function About() {
           <div className="text-center">
             <h2 className="text-3xl font-bold mb-4" style={{ color: brandColor }}>Valores</h2>
             <div className="h-1 w-16 mb-8 mx-auto" style={{ backgroundColor: brandColor }}></div>
-
-            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        
+            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {[
-                { title: "Creatividad", text: "Soluciones innovadoras adaptadas a cada necesidad" },
-                { title: "Responsabilidad", text: "Compromiso con los resultados y plazos acordados" },
-                { title: "Servicialidad", text: "Enfoque en entender y resolver las necesidades reales" },
-                { title: "Orientación a resultados", text: "Métricas claras que demuestren el impacto generado" },
+                { 
+                  title: "Excelencia Operativa", 
+                  text: "Compromiso con estándares de calidad superlativos en cada proyecto, garantizando procesos eficientes y resultados impecables." 
+                },
+                { 
+                  title: "Enfoque en el Cliente", 
+                  text: "Relaciones basadas en atención personalizada, comprensión profunda de necesidades y soluciones adaptadas a cada negocio." 
+                },
+                { 
+                  title: "Eficiencia Económica", 
+                  text: "Optimización de recursos para ofrecer máxima calidad con rentabilidad, asegurando transparencia y valor sostenible." 
+                },
               ].map((value, idx) => (
-                <div key={idx} className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                <div key={idx} className="bg-gray-50 p-6 rounded-lg border border-gray-200 relative pt-10">
+                  {/* Floating "B" badge */}
+                  <div className="absolute -top-5 left-1/2 transform -translate-x-1/2">
+                    <div 
+                      className="flex items-center justify-center w-10 h-10 rounded-full shadow-md"
+                      style={{ 
+                        backgroundColor: '#428ce2',
+                        border: '3px solid white',
+                        boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
+                      }}
+                    >
+                      <span className="text-white font-bold text-xl">B</span>
+                    </div>
+                  </div>
+                  
                   <h3 className="text-xl font-semibold mb-3" style={{ color: brandColor }}>{value.title}</h3>
                   <p className="text-gray-600">{value.text}</p>
                 </div>
