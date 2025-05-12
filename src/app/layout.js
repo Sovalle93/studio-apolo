@@ -14,7 +14,7 @@ export const metadata = {
     canonical: '/', 
   },
   openGraph: {
-    title: 'Studio Apolo | Creative Solutions',
+    title: 'Studio Apolo | Soluciones Creativas',
     description: 'Transforma tus ideas a la realidad con Studio Apolo.',
     images: 'https://res.cloudinary.com/dmivjpb65/image/upload/v1747078584/Screenshot_2025-04-18_161258_1_w0oaiy.png',
   },
