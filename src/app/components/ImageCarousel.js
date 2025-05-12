@@ -10,9 +10,9 @@ export default function ImageCarousel() {
   const images = [
     { id: 1, url: 'https://res.cloudinary.com/dmivjpb65/image/upload/v1746629047/Screenshot_2025-05-07_104303_nnic0m.png', alt: 'Imagen 1' },
     { id: 2, url: 'https://res.cloudinary.com/dmivjpb65/image/upload/v1746630655/Screenshot_2025-05-07_110954_pgmwhs.png', alt: 'Imagen 2' },
-    { id: 3, url: 'https://res.cloudinary.com/dmivjpb65/image/upload/v1746629047/Screenshot_2025-05-07_104303_nnic0m.png', alt: 'Imagen 3' },
-    { id: 4, url: 'https://res.cloudinary.com/dmivjpb65/image/upload/v1746630655/Screenshot_2025-05-07_110954_pgmwhs.png', alt: 'Imagen 4' },
-    { id: 5, url: 'https://res.cloudinary.com/dmivjpb65/image/upload/v1746629047/Screenshot_2025-05-07_104303_nnic0m.png', alt: 'Imagen 5' }
+    { id: 3, url: 'https://res.cloudinary.com/dmivjpb65/image/upload/v1747080592/Screenshot_2025-05-12_160611_ofedji.png', alt: 'Imagen 3' },
+    { id: 4, url: 'https://res.cloudinary.com/dmivjpb65/image/upload/v1747080610/Screenshot_2025-05-12_160638_hkgon9.png', alt: 'Imagen 4' },
+    { id: 5, url: 'https://res.cloudinary.com/dmivjpb65/image/upload/v1747080854/Screenshot_2025-05-12_161359_ih65qk.png', alt: 'Imagen 5' }
   ];
 
   useEffect(() => {
