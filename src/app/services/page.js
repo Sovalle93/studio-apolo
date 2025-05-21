@@ -48,7 +48,7 @@ export default function Services() {
       features: [
         "Diseño de productos",
         "Creación de marca",
-        "Material publiciatrio",
+        "Material publicitario",
         "Community manager",
         "Atención personalizada de clientes",
         "Análisis de métricas y resultados",
@@ -60,7 +60,7 @@ export default function Services() {
       price: "*",
       features: [
         "Diseño y creación de páginas web",
-        "Despliegue de proyecto y compra de dominio personalizado";
+        "Despliegue de proyecto y compra de dominio personalizado",
         "Mantención de página web",
       ], 
       popular: false
@@ -72,7 +72,7 @@ export default function Services() {
         "Diseño de productos",
         "Creación de marca",
         "Diseño web",
-        "Material publiciatrio",
+        "Material publicitario",
         "Community manager",
         "Atención a clientes",
         "Análisis de métricas y resultados",
