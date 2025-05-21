@@ -44,7 +44,7 @@ export default function DemoVideoPlayer() {
           variants={item}
           className="text-3xl md:text-4xl font-bold text-center mb-6 text-gray-900"
         >
-          Conócenos!
+          ¡Conócenos!
         </motion.h2>
        
         <motion.p
