@@ -77,7 +77,7 @@ export default function About() {
             <p className="text-lg text-gray-700 leading-relaxed">
               Potenciar el crecimiento del mercado digital para pequeñas y medianas empresas radica en soluciones integrales de comunicación y marketing. Al
               externalizar servicios profesionales y optimizar recursos, las empresas pueden enfocar sus esfuerzos en su negocio principal, transformando su identidad
-              digitalen resultados tangibles y medibles.
+              digital en resultados tangibles y medibles.
             </p>
           </div>
 
