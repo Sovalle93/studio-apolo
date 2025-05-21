@@ -40,9 +40,9 @@ export default function ContactPage() {
   };
 
   const packages = [
-    { id: 'pack-a', name: 'Pack A', description: 'Material publicitario y diseño web' },
-    { id: 'pack-b', name: 'Pack B', description: 'Community Manager' },
-    { id: 'pack-c', name: 'Pack C', description: 'Diseño de productos + Community manager' }
+    { id: 'pack-a', name: 'Pack A', description: 'Material publicitario y Community Manager' },
+    { id: 'pack-b', name: 'Pack B', description: 'Diseño y creación de pagina web' },
+    { id: 'pack-c', name: 'Pack C', description: 'Diseño de material publicitario + Página web' }
   ];
 
   return (
