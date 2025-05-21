@@ -48,8 +48,10 @@ export default function Services() {
       features: [
         "Diseño de productos",
         "Creación de marca",
-        "Diseño web",
         "Material publiciatrio",
+        "Community manager",
+        "Atención personalizada de clientes",
+        "Análisis de métricas y resultados",
       ],
       popular: false
     },
@@ -57,10 +59,10 @@ export default function Services() {
       name: "Pack B",
       price: "*",
       features: [
-        "Community manager",
-        "Atención personalizada de clientes",
-        "Análisis de métricas y resultados",
-      ],
+        "Diseño y creación de páginas web",
+        "Despliegue de proyecto y compra de dominio personalizado";
+        "Mantención de página web",
+      ], 
       popular: false
     },
     {
