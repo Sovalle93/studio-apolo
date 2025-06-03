@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Middle - Social Links */}
           <div className="flex items-center space-x-6">
             <a 
-              href="https://instagram.com"
+              href="https://www.instagram.com/studioapolo.cl"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:opacity-80 transition-opacity"
@@ -25,7 +25,7 @@ export default function Footer() {
               <FaInstagram className="h-6 w-6" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/company/studio-apolo-cl" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-white hover:opacity-80 transition-opacity"
