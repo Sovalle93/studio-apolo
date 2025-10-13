@@ -10,6 +10,7 @@
         { href: '/', label: 'Home' },
         { href: '/about', label: 'Sobre Nosotros' },
         { href: '/services', label: 'Servicios' },
+        { href: '/designs', label: 'Diseños' },
         { href: '/contact', label: 'Contacto' },
     ];
 
