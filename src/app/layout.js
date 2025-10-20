@@ -1,6 +1,6 @@
 import Header from '@/app/components/Header';
 import './globals.css';
-import { baskerville } from './fonts';
+import { nunito } from './fonts';
 import Footer from './components/Footer';
 
 export const metadata = {
@@ -22,7 +22,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${baskerville.variable} font-sans`}>
+    <html lang="en" className={`${nunito.variable} font-sans`}>
       <body className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-grow">{children}</main>

@@ -56,10 +56,10 @@ export default function ContactPage() {
         <div className="flex justify-center mb-8">
           <div className="relative w-40 h-40 md:w-48 md:h-48 transition-all hover:scale-105">
             <Image
-              src="https://res.cloudinary.com/dmivjpb65/image/upload/v1745007297/Screenshot_2025-04-18_161258_zuv9xb.png"
-              alt="Studio Apolo Logo"
+              src="https://res.cloudinary.com/dmivjpb65/image/upload/v1760984502/Screenshot_2025-10-20_151540_fbf7fi.png"
+              alt="Studio Apolo Mini Logo"
               fill
-              className="object-contain drop-shadow-lg hover:drop-shadow-xl transition-shadow duration-300"
+              className="object-contain"
               sizes="(max-width: 768px) 160px, 192px"
               priority
             />

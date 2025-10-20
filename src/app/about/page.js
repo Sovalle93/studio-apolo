@@ -175,7 +175,7 @@ export default function About() {
               Diseñadora - Universidad del Desarrollo<br />
               Pedagogia en Arte - Universidad de los Andes <br />
               Diplomado Historia del arte<br />
-              Alumna de Taller 99(Grabado), Fotógrafa, Pintora e Illustradora.
+              Alumna de Taller 99 (Grabado), Fotógrafa, Pintora e Illustradora.
             </p>
           </div>
 

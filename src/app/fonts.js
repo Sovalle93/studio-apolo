@@ -1,17 +1,17 @@
 import localFont from 'next/font/local';
 
-export const baskerville = localFont({
+export const nunito = localFont({
   src: [
     {
-      path: '../../public/fonts/Baskervville-Regular.woff2',
+      path: '../../public/fonts/Nunito-VariableFont_wght.woff2',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/Baskervville-Italic.woff2',
-      weight: '700',
-      style: 'normal',
+      path: '../../public/fonts/Nunito-Italic-VariableFont_wght.woff2',
+      weight: '400',
+      style: 'italic',
     },
   ],
-  variable: '--font-baskerville',
+  variable: '--font-nunito',
 });

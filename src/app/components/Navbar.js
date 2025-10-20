@@ -7,11 +7,11 @@
     const pathname = usePathname();
 
     const links = [
-        { href: '/', label: 'Home' },
-        { href: '/about', label: 'Sobre Nosotros' },
-        { href: '/services', label: 'Servicios' },
-        { href: '/designs', label: 'Diseños' },
-        { href: '/contact', label: 'Contacto' },
+        { href: '/', label: 'HOME' },
+        { href: '/about', label: 'SOBRE NOSOTROS' },
+        { href: '/services', label: 'SERVICIOS' },
+        { href: '/designs', label: 'DISEÑOS' },
+        { href: '/contact', label: 'CONTACTO' },
     ];
 
     return (

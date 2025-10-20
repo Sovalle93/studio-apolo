@@ -32,18 +32,12 @@
             <h2 className="text-3xl font-bold mb-4" style={{ color: '#272e80' }}>Sobre este Portafolio</h2>
             <div className="prose prose-lg" style={{ color: '#3754a5' }}>
             <p>
-                Esta coleccion de trabajos es la trayectoria de 10 años de nuestra directora creativa, que
-                demuestra nuestro enfoque en cada proyecto:
+                Descubre el portafolio creativo que demuestra cómo nuestros diseños innovadores
+                impulsan la transformación de negocios mediante la creación de marca y el desarrollo de contenido estratégico.
             </p>
-            <ul className="list-disc pl-6 space-y-2">
-                <li>Posicionamiento estratégico de marcas</li>
-                <li>Decisiones de diseño basadas en datos que aumentan la participación del cliente</li>
-                <li>Coherencia entre plataformas con principios de diseño adaptativo</li>
-                <li>Prácticas de diseño sostenible que reducen el impacto ambiental del cliente</li>
-            </ul>
             <p className="mt-4">
-            Nuestro director creativo aporta más de 15 años de experiencia combinando
-            la artesanía tradicional con soluciones digitales de vanguardia
+                Explora el portafolio de nuestra diseñadora creativa, donde cada proyecto presenta 
+                soluciones innovadoras que transforman negocios a través de la creación estratégica de marca y contenido visual impactante.
             </p>
             </div>
         </div>
