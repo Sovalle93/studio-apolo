@@ -2,16 +2,16 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import Image from 'next/image';
 
 export default function StaticImage() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 
-  const staticImage = {
-    id: 1,
-    url: 'https://res.cloudinary.com/dmivjpb65/image/upload/v1747080592/Screenshot_2025-05-12_160611_ofedji.png',
-    alt: 'Imagen 1'
-  };
+  // Use Cloudinary transformations for better quality
+  const baseUrl = 'https://res.cloudinary.com/dmivjpb65/image/upload';
+  const transformations = 'f_auto,q_90,w_1920'; // Higher quality and width
+  const staticImageUrl = `${baseUrl}/${transformations}/v1747080592/Screenshot_2025-05-12_160611_ofedji.png`;
 
   return (
     <section className="relative w-full pt-16 pb-16 bg-white" style={{ marginTop: 0 }}>
@@ -36,10 +36,14 @@ export default function StaticImage() {
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             className="w-full h-full"
           >
-            <img
-              src={staticImage.url}
-              alt={staticImage.alt}
+            <Image
+              src={staticImageUrl}
+              alt="Creamos tu próximo proyecto"
               className="w-full h-full object-cover object-center"
+              width={1920}
+              height={1080}
+              quality={100}
+              priority
             />
           </motion.div>
         </div>

@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import { FiPlay, FiYoutube } from 'react-icons/fi';
+import Image from 'next/image';
 
 export default function DemoVideoPlayer() {
   const container = {
@@ -61,9 +62,11 @@ export default function DemoVideoPlayer() {
         >
           {/* YouTube Thumbnail with Play Button */}
           <div className="w-full h-full relative">
-            <img
+            <Image
               src={thumbnailUrl}
               alt="Video thumbnail"
+              width={1280}
+              height={720}
               className="w-full h-full object-cover"
             />
            
